@@ -4,12 +4,12 @@ This is a Python-based Sudoku solver with a graphical user interface (GUI) using
 
 ## Features
 
-- Graphical User Interface (GUI): The game board is rendered using pygame, allowing users to interact with the puzzle visually.
-- Manual Input: Users can select cells and input numbers (1-9) using the keyboard or numpad.
-- Puzzle Solver: The user can press "Enter" to solve the puzzle automatically using a backtracking algorithm.
-- Confetti Animation: When the puzzle is solved successfully, a confetti animation is triggered for a celebratory effect.
-- Delete Functionality: Users can delete numbers from the grid using the Backspace key.
-- 
+- **Graphical User Interface (GUI):** The game board is rendered using pygame, allowing users to interact with the puzzle visually.
+- **Manual Input:** Users can select cells and input numbers (1-9) using the keyboard or numpad.
+- **Puzzle Solver:** The user can press "Enter" to solve the puzzle automatically using a backtracking algorithm.
+- **Confetti Animation:** When the puzzle is solved successfully, a confetti animation is triggered for a celebratory effect.
+- **Delete Functionality:** Users can delete numbers from the grid using the Backspace key.
+
 ## How to Use
 Clone this repository:
 
@@ -34,11 +34,11 @@ python sudoku.py
 
 ## Controls
 
-- Number Input: Use the number keys (1-9) or the numpad to input values in the selected cell.
-- Delete Input: Press "Backspace" to remove the value in the selected cell.
-- Solve Puzzle: Press "Enter" to solve the puzzle automatically.
-- Select Cell: Use the mouse to select a cell on the grid.
-- Close Game: Click the close button or press "ESC" to exit the game.
+- **Number Input:** Use the number keys (1-9) or the numpad to input values in the selected cell.
+- **Delete Input:** Press "Backspace" to remove the value in the selected cell.
+- **Solve Puzzle:** Press "Enter" to solve the puzzle automatically.
+- **Select Cell:** Use the mouse to select a cell on the grid.
+- **Close Game:** Click the close button or press "ESC" to exit the game.
   
 ## Requirements
 
