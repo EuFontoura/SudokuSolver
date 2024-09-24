@@ -19,7 +19,7 @@ git clone https://github.com/your-username/sudoku-solver.git
 Navigate to the project directory:
 
 ```bash
-cd sudoku-solver
+cd SudokuSolver
 ```
 Install the required dependencies:
 
@@ -29,7 +29,7 @@ pip install pygame
 Run the game:
 
 ```bash
-python sudoku.py
+python main.py
 ```
 
 ## Controls
