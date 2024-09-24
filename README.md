@@ -1,64 +1,53 @@
-# SudokuSolver
+# Sudoku Solver
 
-Este projeto é uma implementação de um solucionador de Sudoku utilizando o algoritmo de **backtracking**. A aplicação é capaz de resolver qualquer quebra-cabeça de Sudoku clássico de 9x9, identificando números válidos para cada célula vazia até que o problema seja resolvido.
+This is a Python-based Sudoku solver with a graphical user interface (GUI) using pygame. The solver uses backtracking to solve any given Sudoku puzzle and allows user interaction for manual input and solving. Additionally, confetti is displayed when the puzzle is successfully solved!
 
-## Funcionalidades
+## Features
 
-- Resolve quebra-cabeças de Sudoku 9x9.
-- Verifica se a solução proposta é válida nas linhas, colunas e quadrantes 3x3.
-- Utiliza backtracking para testar todas as possibilidades até encontrar a solução correta.
+- Graphical User Interface (GUI): The game board is rendered using pygame, allowing users to interact with the puzzle visually.
+- Manual Input: Users can select cells and input numbers (1-9) using the keyboard or numpad.
+- Puzzle Solver: The user can press "Enter" to solve the puzzle automatically using a backtracking algorithm.
+- Confetti Animation: When the puzzle is solved successfully, a confetti animation is triggered for a celebratory effect.
+- Delete Functionality: Users can delete numbers from the grid using the Backspace key.
+- 
+## How to Use
+Clone this repository:
 
-## Como usar
+```bash
+git clone https://github.com/your-username/sudoku-solver.git
+```
+Navigate to the project directory:
 
-1. Clone este repositório:
+```bash
+cd sudoku-solver
+```
+Install the required dependencies:
 
-    ```bash
-    git clone https://github.com/seu-usuario/sudoku-solver.git
-    ```
+```bash
+pip install pygame
+```
+Run the game:
 
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd SudokuSolver
-    ```
-
-3. Execute o script principal para resolver o Sudoku:
-
-    ```bash
-    python main.py
-    ```
-
-O arquivo `main.py` contém um exemplo de quebra-cabeça de Sudoku para ser resolvido. Você pode substituir o puzzle de exemplo com qualquer outro, utilizando o formato de lista aninhada. As células vazias devem ser representadas com `-1`.
-
-### Exemplo de quebra-cabeça
-
-```python
-puzzle_exemplo = [
-    [5, 3, -1, -1, 7, -1, -1, -1, -1],
-    [6, -1, -1, 1, 9, 5, -1, -1, -1],
-    [-1, 9, 8, -1, -1, -1, -1, 6, -1],
-    [8, -1, -1, -1, 6, -1, -1, -1, 3],
-    [4, -1, -1, 8, -1, 3, -1, -1, 1],
-    [7, -1, -1, -1, 2, -1, -1, -1, 6],
-    [-1, 6, -1, -1, -1, -1, 2, 8, -1],
-    [-1, -1, -1, 4, 1, 9, -1, -1, 5],
-    [-1, -1, -1, -1, 8, -1, -1, 7, 9]
-]
+```bash
+python sudoku.py
 ```
 
-## Estrutura do projeto
+## Controls
 
-- sudoku.py: contém as funções principais de resolução do Sudoku, como a verificação de validade e a função recursiva de backtracking.
-- main.py: arquivo principal que roda o exemplo de Sudoku e mostra a solução no console.
-- .gitignore: configurado para ignorar arquivos de cache do Python como __pycache__/.
+- Number Input: Use the number keys (1-9) or the numpad to input values in the selected cell.
+- Delete Input: Press "Backspace" to remove the value in the selected cell.
+- Solve Puzzle: Press "Enter" to solve the puzzle automatically.
+- Select Cell: Use the mouse to select a cell on the grid.
+- Close Game: Click the close button or press "ESC" to exit the game.
   
-## Requisitos
-- Python 3.6 ou superior
+## Requirements
 
-## Contribuições
+Python 3.6 or higher
 
-Este projeto foi desenvolvido por Gabriel Fontoura.
+## Contributions
 
-## Licença
+This project was developed by Gabriel Fontoura.
 
-Este projeto não possui uma licença específica.
+## License
+
+This project does not have a specific license.
